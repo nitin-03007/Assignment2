@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;            
+}
+    /* -------Header Section Starts Here---- */
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(168, 253, 246);
+    display: flex;
+    justify-content: center;
+    /* padding: 0 120px; */
+    padding-left: 180px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    position: fixed;
+}
+.logo{
+    width: 15%;
+    height: 50px;
+    /* background-color: aqua; */
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.logo-img{
+    width: 100%;
+    height: 130px;
+}
+.search-bar{
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-text{
+    width: 60%;
+    height: 32px;
+    outline: none;
+    border: none;
+
+}
+.search-btn{
+    width: 35px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+
+}
+.search-btn:hover{
+    width: 38px;
+    background-color:rgb(252, 162, 202);
+}
+.seach-img{
+    width: 30px;
+    height: 29px;
+    /* background-color: white; */
+}
+.nav{
+    width: 40%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    
+}
+.nav-links{
+    width: 100%;
+    display: flex;
+    font-size: 23px;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.nav-item{
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+        /* -------Header Section Ends Here---- */
+
+        /* --------Banner Section Start Here------ */
+.banner{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: rgb(188, 188, 188);
+    padding: 5px 0;
+
+
+    
+}
+.banner-txt{
+    width: 40%;
+    height: 490px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.ban-txt{
+    align-items: center;
+    justify-content:center ;
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    background-color: whitesmoke;
+    border-color: black;
+    outline: 10px;
+}
+.banner-img{
+    width: 60%;
+    height: 490px;
+}
+.ban-img{
+    width: 100%;
+    height: 500px;
+    /* background-color: aquamarine; */
+}
